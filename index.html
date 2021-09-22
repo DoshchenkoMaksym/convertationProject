@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="container">
+                <section class="section">
+                    <form class="calc" action="">
+                        <label for="initValue">Введите число:</label>
+                        <input class="calc__input" id="initValue" type="text">
+                        <select class="calc__input-select">
+                           <!--  <option value="m">Метры (m)</option>
+                            <option value="cm">Сантиметры (cm)</option>
+                            <option value="in">Дюймы (in)</option>
+                            <option value="ft">Футы (ft)</option> -->
+                        </select>
+                        <div class="calc__text">Перевести в:</div>
+                        <select class="calc__output-select">
+                            <!-- <option value="m">Метры (m)</option>
+                            <option value="cm">Сантиметры (cm)</option>
+                            <option value="in">Дюймы (in)</option>
+                            <option value="ft">Футы (ft)</option> -->
+                        </select>
+                        <label for="result">Результат:</label>
+                        <input class="calc__output" type="text" id="result">
+                        <button class="calc__submit" type="submit">Конвертировать</button>
+                    </form>
+                </section>
+                <section class="section2">
+                    <input id="selectFiles" type="file"  value="Import" /><br />
+                    <button id="import">Загрузить</button>
+                </section>
+               
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

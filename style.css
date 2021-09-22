@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+html, body {
+    height: 100%;
+}
+.downoloaded{
+    background-color: green;
+}
+select, option, .calc__submit, #selectFiles, #import {
+    cursor: pointer;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1280px;
+    margin: 0 auto;
+}
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.calc__submit {
+    margin-top: 10px;
+    display: block;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+#import {
+    margin-top: 10px;
+   outline: none;
+   border: 1px solid black;
+}
+
